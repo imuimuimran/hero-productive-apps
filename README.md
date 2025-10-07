@@ -21,8 +21,8 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 
-## Project Description: This is an app based react project where apps can be installed and remove using technologies such as react, tailwindcss, daisyui, react-router.
+## Project Description: This is an app based react project where apps can be installed and remove using technologies such as react, tailwindcss, daisyui, react-router, lucide-react.
 
 
 
-## Technologies Used: react, tailwindcss, daisyui, react-router
+## Technologies Used: react, tailwindcss, daisyui, react-router, lucide-react
