@@ -1,0 +1,734 @@
+[
+{
+image: "https://i.ibb.co.com/LD8pDsnZ/spotify.png",
+title: "Spotify",
+companyName: "Spotify AB",
+id: 1,
+description: "Spotify is the world’s leading music streaming platform that gives you access to millions of tracks, albums, and podcasts from artists around the globe. Create and share your own playlists, discover new releases tailored to your mood, and enjoy offline listening anytime. With advanced personalization, Spotify ensures every session feels like your private concert.",
+size: 45,
+reviews: 12800000,
+ratingAvg: 4.6,
+downloads: 1000000000,
+ratings: [
+{name: "1 star", count: 250000},
+{name: "2 star", count: 300000},
+{name: "3 star", count: 800000},
+{name: "4 star", count: 2400000},
+{name: "5 star", count: 9000000}
+]
+},
+{
+image: "https://i.ibb.co.com/4wrV0Wmb/canva.png",
+title: "Canva",
+companyName: "Canva Pty Ltd",
+id: 2,
+description: "Canva is an intuitive design tool that empowers everyone—from beginners to professionals—to create stunning graphics, videos, and presentations. With thousands of free templates, fonts, and elements, you can bring your ideas to life for social media, marketing, or personal use. Collaborate in real time and export your designs with just a click.",
+size: 32,
+reviews: 11000000,
+ratingAvg: 4.8,
+downloads: 500000000,
+ratings: [
+{name: "1 star", count: 200000},
+{name: "2 star", count: 250000},
+{name: "3 star", count: 600000},
+{name: "4 star", count: 1800000},
+{name: "5 star", count: 8800000}
+]
+},
+{
+image: "https://i.ibb.co.com/bRMYwwPm/telegram.png",
+title: "Telegram",
+companyName: "Telegram FZ-LLC",
+id: 3,
+description: "Telegram is a high-speed, cloud-based messaging app designed for security and freedom. It allows users to send unlimited media and files instantly, join massive public groups, and build channels for broadcasting messages to millions. With end-to-end encryption and powerful privacy tools, Telegram is built to protect your conversations.",
+size: 38,
+reviews: 9000000,
+ratingAvg: 4.4,
+downloads: 1000000000,
+ratings: [
+{name: "1 star", count: 400000},
+{name: "2 star", count: 500000},
+{name: "3 star", count: 900000},
+{name: "4 star", count: 2500000},
+{name: "5 star", count: 4700000}
+]
+},
+{
+image: "https://i.ibb.co.com/hxgdBBCN/Picflow.png",
+title: "PicsFlow",
+companyName: "PicsFlow Studio",
+id: 4,
+description: "PicsFlow transforms your memories into cinematic photo slideshows with professional transitions, filters, and soundtracks. Choose from multiple templates and easily sync your images with background music to create emotional and engaging visuals. Perfect for social media sharing or personal storytelling, PicsFlow makes creativity effortless.",
+size: 28,
+reviews: 560000,
+ratingAvg: 4.3,
+downloads: 10000000,
+ratings: [
+{name: "1 star", count: 30000},
+{name: "2 star", count: 40000},
+{name: "3 star", count: 80000},
+{name: "4 star", count: 160000},
+{name: "5 star", count: 250000}
+]
+},
+{
+image: "https://i.ibb.co.com/fWMY28v/taskmate.jpg",
+title: "TaskMate",
+companyName: "Google LLC",
+id: 5,
+description: "TaskMate is a simple way to earn rewards by completing real-world tasks such as taking photos, answering surveys, or verifying local business information. Designed by Google, it helps improve map data and digital services while offering users small incentives. You can choose tasks that interest you and complete them at your own pace.",
+size: 22,
+reviews: 840000,
+ratingAvg: 4.2,
+downloads: 5000000,
+ratings: [
+{name: "1 star", count: 50000},
+{name: "2 star", count: 60000},
+{name: "3 star", count: 120000},
+{name: "4 star", count: 240000},
+{name: "5 star", count: 370000}
+]
+},
+{
+image: "https://i.ibb.co.com/Zz3PV5K4/whatsapp.png",
+title: "WhatsApp Messenger",
+companyName: "Meta Platforms, Inc.",
+id: 6,
+description: "WhatsApp is a fast, reliable, and secure messaging platform connecting billions of people globally. It allows you to send texts, photos, videos, voice notes, and make free video calls across any network. With end-to-end encryption, group chats, and seamless backup options, WhatsApp has become an essential tool for daily communication.",
+size: 40,
+reviews: 15000000,
+ratingAvg: 4.5,
+downloads: 5000000000,
+ratings: [
+{name: "1 star", count: 800000},
+{name: "2 star", count: 900000},
+{name: "3 star", count: 1500000},
+{name: "4 star", count: 3000000},
+{name: "5 star", count: 8800000}
+]
+},
+{
+image: "https://i.ibb.co.com/nXhYSK2/instagram.png",
+title: "Instagram",
+companyName: "Meta Platforms, Inc.",
+id: 7,
+description: "Instagram is a creative social media platform that lets you share photos, stories, and short videos with your followers. From influencers to brands, it’s the go-to app for visual storytelling and digital engagement. With Reels, live streaming, and advanced editing tools, you can connect, inspire, and grow your audience like never before.",
+size: 55,
+reviews: 18000000,
+ratingAvg: 4.3,
+downloads: 5000000000,
+ratings: [
+{name: "1 star", count: 1000000},
+{name: "2 star", count: 1200000},
+{name: "3 star", count: 2000000},
+{name: "4 star", count: 3500000},
+{name: "5 star", count: 10300000}
+]
+},
+{
+image: "https://i.ibb.co.com/99DwDWsf/tiktok.png",
+title: "TikTok",
+companyName: "TikTok Pte. Ltd.",
+id: 8,
+description: "TikTok is the ultimate destination for short-form video entertainment. Users can watch, create, and share videos ranging from comedy and dance to education and lifestyle. With AI-driven recommendations and easy editing tools, TikTok gives everyone the power to express creativity and connect with a global audience.",
+size: 70,
+reviews: 20000000,
+ratingAvg: 4.4,
+downloads: 3000000000,
+ratings: [
+{name: "1 star", count: 1300000},
+{name: "2 star", count: 1500000},
+{name: "3 star", count: 2200000},
+{name: "4 star", count: 3600000},
+{name: "5 star", count: 11300000}
+]
+},
+{
+image: "https://i.ibb.co.com/dw4fHRmb/snapseed.png",
+title: "Snapseed",
+companyName: "Google LLC",
+id: 9,
+description: "Snapseed is a professional-grade photo editing app developed by Google. It provides a full suite of editing tools, including selective adjustments, filters, healing brushes, and RAW file support. With a clean interface and precise controls, Snapseed helps photographers perfect their shots directly from their mobile devices.",
+size: 25,
+reviews: 2200000,
+ratingAvg: 4.6,
+downloads: 100000000,
+ratings: [
+{name: "1 star", count: 80000},
+{name: "2 star", count: 90000},
+{name: "3 star", count: 180000},
+{name: "4 star", count: 480000},
+{name: "5 star", count: 1460000}
+]
+},
+{
+image: "https://i.ibb.co.com/FbtyKCj2/notion.png",
+title: "Notion",
+companyName: "Notion Labs, Inc.",
+id: 10,
+description: "Notion is a powerful productivity app that brings notes, tasks, databases, and collaboration into a single workspace. Whether you're planning a project, writing documentation, or tracking goals, Notion adapts to your workflow. It’s perfect for individuals and teams who want to stay organized with flexibility and structure.",
+size: 60,
+reviews: 3200000,
+ratingAvg: 4.7,
+downloads: 100000000,
+ratings: [
+{name: "1 star", count: 100000},
+{name: "2 star", count: 120000},
+{name: "3 star", count: 250000},
+{name: "4 star", count: 700000},
+{name: "5 star", count: 2030000}
+]
+},
+{
+image: "https://i.ibb.co.com/7tTGczY4/zoom.png",
+title: "Zoom",
+companyName: "Zoom Video Communications, Inc.",
+id: 11,
+description: "Zoom is a trusted platform for video meetings, webinars, and online collaboration. It offers HD video, screen sharing, breakout rooms, and recording options for professional and personal use. Designed for reliability and ease of use, Zoom has become an essential tool for remote work and education worldwide.",
+size: 85,
+reviews: 8700000,
+ratingAvg: 4.3,
+downloads: 1000000000,
+ratings: [
+{name: "1 star", count: 500000},
+{name: "2 star", count: 600000},
+{name: "3 star", count: 900000},
+{name: "4 star", count: 2000000},
+{name: "5 star", count: 4700000}
+]
+},
+{
+image: "https://i.ibb.co.com/j9hHCQk7/slack.png",
+title: "Slack",
+companyName: "Slack Technologies LLC",
+id: 12,
+description: "Slack is a team communication platform that brings messaging, file sharing, and collaboration into one place. It integrates with hundreds of tools like Google Drive, Jira, and Trello to streamline workflow. Whether you’re working remotely or in-office, Slack keeps teams connected and conversations organized.",
+size: 55,
+reviews: 2200000,
+ratingAvg: 4.2,
+downloads: 100000000,
+ratings: [
+{name: "1 star", count: 100000},
+{name: "2 star", count: 150000},
+{name: "3 star", count: 250000},
+{name: "4 star", count: 650000},
+{name: "5 star", count: 1050000}
+]
+},
+{
+image: "https://i.ibb.co.com/Kcbt1vR7/duolingo.png",
+title: "Duolingo",
+companyName: "Duolingo, Inc.",
+id: 13,
+description: "Duolingo makes learning new languages fun and accessible with interactive lessons and gamified exercises. Track your progress, earn rewards, and practice speaking, reading, and listening daily. Whether you’re a beginner or brushing up your skills, Duolingo turns language learning into an addictive habit.",
+size: 42,
+reviews: 14000000,
+ratingAvg: 4.7,
+downloads: 500000000,
+ratings: [
+{name: "1 star", count: 300000},
+{name: "2 star", count: 400000},
+{name: "3 star", count: 700000},
+{name: "4 star", count: 2200000},
+{name: "5 star", count: 10400000}
+]
+},
+{
+image: "https://i.ibb.co.com/Kxh3R71n/paypal.png",
+title: "PayPal",
+companyName: "PayPal Holdings, Inc.",
+id: 14,
+description: "PayPal is a trusted online payment app that lets you send and receive money securely with just an email or phone number. Shop safely on millions of websites, split bills, or manage business transactions effortlessly. With buyer protection and real-time tracking, PayPal ensures financial freedom with peace of mind.",
+size: 45,
+reviews: 5200000,
+ratingAvg: 4.4,
+downloads: 500000000,
+ratings: [
+{name: "1 star", count: 300000},
+{name: "2 star", count: 350000},
+{name: "3 star", count: 700000},
+{name: "4 star", count: 1200000},
+{name: "5 star", count: 2650000}
+]
+},
+{
+image: "https://i.ibb.co.com/HTZ4s6mN/airbnb.png",
+title: "Airbnb",
+companyName: "Airbnb, Inc.",
+id: 15,
+description: "Airbnb helps travelers find unique stays, from cozy cabins to city apartments, directly from local hosts. Explore millions of listings around the world, book experiences, and enjoy flexible travel options. With transparent reviews and easy booking, Airbnb makes every trip feel like home away from home.",
+size: 70,
+reviews: 6500000,
+ratingAvg: 4.5,
+downloads: 1000000000,
+ratings: [
+{name: "1 star", count: 350000},
+{name: "2 star", count: 400000},
+{name: "3 star", count: 850000},
+{name: "4 star", count: 1600000},
+{name: "5 star", count: 3300000}
+]
+},
+{
+image: "https://i.ibb.co.com/fdwFwrZB/uber.png",
+title: "Uber",
+companyName: "Uber Technologies, Inc.",
+id: 16,
+description: "Uber makes getting around cities easier and more affordable by connecting riders with nearby drivers. Book rides in minutes, track your car in real time, and pay seamlessly through the app. With safety features and ride-sharing options, Uber redefines urban mobility for millions worldwide.",
+size: 58,
+reviews: 18000000,
+ratingAvg: 4.2,
+downloads: 1000000000,
+ratings: [
+{name: "1 star", count: 1200000},
+{name: "2 star", count: 1300000},
+{name: "3 star", count: 2100000},
+{name: "4 star", count: 3900000},
+{name: "5 star", count: 9400000}
+]
+},
+{
+image: "https://i.ibb.co.com/3Yjs8xdP/pinterest.png",
+title: "Pinterest",
+companyName: "Pinterest, Inc.",
+id: 17,
+description: "Pinterest is your visual discovery engine for finding inspiration in everything from recipes to fashion and home design. Save, organize, and share ideas you love by pinning them to custom boards. Whether planning a project or exploring creativity, Pinterest helps you turn ideas into action.",
+size: 35,
+reviews: 8700000,
+ratingAvg: 4.6,
+downloads: 1000000000,
+ratings: [
+{name: "1 star", count: 400000},
+{name: "2 star", count: 450000},
+{name: "3 star", count: 800000},
+{name: "4 star", count: 2000000},
+{name: "5 star", count: 5050000}
+]
+},
+{
+image: "https://i.ibb.co.com/kghfGYrV/asana.png",
+title: "Asana",
+companyName: "Asana, Inc.",
+id: 18,
+description: "Asana is a project management app built to help teams plan, organize, and execute work efficiently. Track tasks, set goals, assign responsibilities, and visualize progress using timelines and boards. With powerful integrations and automation, Asana streamlines collaboration and productivity across any project.",
+size: 50,
+reviews: 1600000,
+ratingAvg: 4.5,
+downloads: 50000000,
+ratings: [
+{name: "1 star", count: 70000},
+{name: "2 star", count: 90000},
+{name: "3 star", count: 150000},
+{name: "4 star", count: 400000},
+{name: "5 star", count: 950000}
+]
+},
+{
+image: "https://i.ibb.co.com/C5Yg6XJt/evernote.png",
+title: "Evernote",
+companyName: "Evernote Corporation",
+id: 19,
+description: "Evernote helps you capture thoughts, ideas, and important information all in one place. Create notes, attach documents, and sync seamlessly across devices so you never lose track of anything. Ideal for students, professionals, and creatives, Evernote is your digital notebook for everything that matters.",
+size: 48,
+reviews: 3100000,
+ratingAvg: 4.4,
+downloads: 100000000,
+ratings: [
+{name: "1 star", count: 150000},
+{name: "2 star", count: 200000},
+{name: "3 star", count: 400000},
+{name: "4 star", count: 800000},
+{name: "5 star", count: 1650000}
+]
+},
+{
+image: "https://i.ibb.co.com/6JTbm8LH/capcut1.png",
+title: "CapCut",
+companyName: "Bytedance Pte. Ltd.",
+id: 20,
+description: "CapCut is an all-in-one video editor that makes professional-quality editing accessible to everyone. Add music, effects, filters, and transitions to create visually stunning videos for social media. With AI-powered tools, speed controls, and advanced layering, CapCut helps you bring creativity to life effortlessly.",
+size: 90,
+reviews: 12500000,
+ratingAvg: 4.7,
+downloads: 500000000,
+ratings: [
+{name: "1 star", count: 400000},
+{name: "2 star", count: 500000},
+{name: "3 star", count: 900000},
+{name: "4 star", count: 2400000},
+{name: "5 star", count: 8300000}
+]
+}
+]
+
+
+
+
+
+
+json format:
+
+
+[
+  {
+    "image": "https://i.ibb.co.com/LD8pDsnZ/spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Spotify is the world’s leading music streaming platform that gives you access to millions of tracks, albums, and podcasts from artists around the globe. Create and share your own playlists, discover new releases tailored to your mood, and enjoy offline listening anytime. With advanced personalization, Spotify ensures every session feels like your private concert.",
+    "size": 45,
+    "reviews": 12800000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      {"name": "1 star", "count": 250000},
+      {"name": "2 star", "count": 300000},
+      {"name": "3 star", "count": 800000},
+      {"name": "4 star", "count": 2400000},
+      {"name": "5 star", "count": 9000000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4wrV0Wmb/canva.png",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 2,
+    "description": "Canva is an intuitive design tool that empowers everyone—from beginners to professionals—to create stunning graphics, videos, and presentations. With thousands of free templates, fonts, and elements, you can bring your ideas to life for social media, marketing, or personal use. Collaborate in real time and export your designs with just a click.",
+    "size": 32,
+    "reviews": 11000000,
+    "ratingAvg": 4.8,
+    "downloads": 500000000,
+    "ratings": [
+      {"name": "1 star", "count": 200000},
+      {"name": "2 star", "count": 250000},
+      {"name": "3 star", "count": 600000},
+      {"name": "4 star", "count": 1800000},
+      {"name": "5 star", "count": 8800000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bRMYwwPm/telegram.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 3,
+    "description": "Telegram is a high-speed, cloud-based messaging app designed for security and freedom. It allows users to send unlimited media and files instantly, join massive public groups, and build channels for broadcasting messages to millions. With end-to-end encryption and powerful privacy tools, Telegram is built to protect your conversations.",
+    "size": 38,
+    "reviews": 9000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      {"name": "1 star", "count": 400000},
+      {"name": "2 star", "count": 500000},
+      {"name": "3 star", "count": 900000},
+      {"name": "4 star", "count": 2500000},
+      {"name": "5 star", "count": 4700000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hxgdBBCN/Picflow.png",
+    "title": "PicsFlow",
+    "companyName": "PicsFlow Studio",
+    "id": 4,
+    "description": "PicsFlow transforms your memories into cinematic photo slideshows with professional transitions, filters, and soundtracks. Choose from multiple templates and easily sync your images with background music to create emotional and engaging visuals. Perfect for social media sharing or personal storytelling, PicsFlow makes creativity effortless.",
+    "size": 28,
+    "reviews": 560000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000,
+    "ratings": [
+      {"name": "1 star", "count": 30000},
+      {"name": "2 star", "count": 40000},
+      {"name": "3 star", "count": 80000},
+      {"name": "4 star", "count": 160000},
+      {"name": "5 star", "count": 250000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/fWMY28v/taskmate.jpg",
+    "title": "TaskMate",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "TaskMate is a simple way to earn rewards by completing real-world tasks such as taking photos, answering surveys, or verifying local business information. Designed by Google, it helps improve map data and digital services while offering users small incentives. You can choose tasks that interest you and complete them at your own pace.",
+    "size": 22,
+    "reviews": 840000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000,
+    "ratings": [
+      {"name": "1 star", "count": 50000},
+      {"name": "2 star", "count": 60000},
+      {"name": "3 star", "count": 120000},
+      {"name": "4 star", "count": 240000},
+      {"name": "5 star", "count": 370000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Zz3PV5K4/whatsapp.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 6,
+    "description": "WhatsApp is a fast, reliable, and secure messaging platform connecting billions of people globally. It allows you to send texts, photos, videos, voice notes, and make free video calls across any network. With end-to-end encryption, group chats, and seamless backup options, WhatsApp has become an essential tool for daily communication.",
+    "size": 40,
+    "reviews": 15000000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      {"name": "1 star", "count": 800000},
+      {"name": "2 star", "count": 900000},
+      {"name": "3 star", "count": 1500000},
+      {"name": "4 star", "count": 3000000},
+      {"name": "5 star", "count": 8800000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nXhYSK2/instagram.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 7,
+    "description": "Instagram is a creative social media platform that lets you share photos, stories, and short videos with your followers. From influencers to brands, it’s the go-to app for visual storytelling and digital engagement. With Reels, live streaming, and advanced editing tools, you can connect, inspire, and grow your audience like never before.",
+    "size": 55,
+    "reviews": 18000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      {"name": "1 star", "count": 1000000},
+      {"name": "2 star", "count": 1200000},
+      {"name": "3 star", "count": 2000000},
+      {"name": "4 star", "count": 3500000},
+      {"name": "5 star", "count": 10300000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/99DwDWsf/tiktok.png",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 8,
+    "description": "TikTok is the ultimate destination for short-form video entertainment. Users can watch, create, and share videos ranging from comedy and dance to education and lifestyle. With AI-driven recommendations and easy editing tools, TikTok gives everyone the power to express creativity and connect with a global audience.",
+    "size": 70,
+    "reviews": 20000000,
+    "ratingAvg": 4.4,
+    "downloads": 3000000000,
+    "ratings": [
+      {"name": "1 star", "count": 1300000},
+      {"name": "2 star", "count": 1500000},
+      {"name": "3 star", "count": 2200000},
+      {"name": "4 star", "count": 3600000},
+      {"name": "5 star", "count": 11300000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/dw4fHRmb/snapseed.png",
+    "title": "Snapseed",
+    "companyName": "Google LLC",
+    "id": 9,
+    "description": "Snapseed is a professional-grade photo editing app developed by Google. It provides a full suite of editing tools, including selective adjustments, filters, healing brushes, and RAW file support. With a clean interface and precise controls, Snapseed helps photographers perfect their shots directly from their mobile devices.",
+    "size": 25,
+    "reviews": 2200000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      {"name": "1 star", "count": 80000},
+      {"name": "2 star", "count": 90000},
+      {"name": "3 star", "count": 180000},
+      {"name": "4 star", "count": 480000},
+      {"name": "5 star", "count": 1460000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/FbtyKCj2/notion.png",
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "id": 10,
+    "description": "Notion is a powerful productivity app that brings notes, tasks, databases, and collaboration into a single workspace. Whether you're planning a project, writing documentation, or tracking goals, Notion adapts to your workflow. It’s perfect for individuals and teams who want to stay organized with flexibility and structure.",
+    "size": 60,
+    "reviews": 3200000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      {"name": "1 star", "count": 100000},
+      {"name": "2 star", "count": 120000},
+      {"name": "3 star", "count": 250000},
+      {"name": "4 star", "count": 700000},
+      {"name": "5 star", "count": 2030000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/7tTGczY4/zoom.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 11,
+    "description": "Zoom is a trusted platform for video meetings, webinars, and online collaboration. It offers HD video, screen sharing, breakout rooms, and recording options for professional and personal use. Designed for reliability and ease of use, Zoom has become an essential tool for remote work and education worldwide.",
+    "size": 85,
+    "reviews": 8700000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      {"name": "1 star", "count": 500000},
+      {"name": "2 star", "count": 600000},
+      {"name": "3 star", "count": 900000},
+      {"name": "4 star", "count": 2000000},
+      {"name": "5 star", "count": 4700000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/j9hHCQk7/slack.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies LLC",
+    "id": 12,
+    "description": "Slack is a team communication platform that brings messaging, file sharing, and collaboration into one place. It integrates with hundreds of tools like Google Drive, Jira, and Trello to streamline workflow. Whether you’re working remotely or in-office, Slack keeps teams connected and conversations organized.",
+    "size": 55,
+    "reviews": 2200000,
+    "ratingAvg": 4.2,
+    "downloads": 100000000,
+    "ratings": [
+      {"name": "1 star", "count": 100000},
+      {"name": "2 star", "count": 150000},
+      {"name": "3 star", "count": 250000},
+      {"name": "4 star", "count": 650000},
+      {"name": "5 star", "count": 1050000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Kcbt1vR7/duolingo.png",
+    "title": "Duolingo",
+    "companyName": "Duolingo, Inc.",
+    "id": 13,
+    "description": "Duolingo makes learning new languages fun and accessible with interactive lessons and gamified exercises. Track your progress, earn rewards, and practice speaking, reading, and listening daily. Whether you’re a beginner or brushing up your skills, Duolingo turns language learning into an addictive habit.",
+    "size": 42,
+    "reviews": 14000000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      {"name": "1 star", "count": 300000},
+      {"name": "2 star", "count": 400000},
+      {"name": "3 star", "count": 700000},
+      {"name": "4 star", "count": 2200000},
+      {"name": "5 star", "count": 10400000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Kxh3R71n/paypal.png",
+    "title": "PayPal",
+    "companyName": "PayPal Holdings, Inc.",
+    "id": 14,
+    "description": "PayPal is a trusted online payment app that lets you send and receive money securely with just an email or phone number. Shop safely on millions of websites, split bills, or manage business transactions effortlessly. With buyer protection and real-time tracking, PayPal ensures financial freedom with peace of mind.",
+    "size": 45,
+    "reviews": 5200000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      {"name": "1 star", "count": 300000},
+      {"name": "2 star", "count": 350000},
+      {"name": "3 star", "count": 700000},
+      {"name": "4 star", "count": 1200000},
+      {"name": "5 star", "count": 2650000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HTZ4s6mN/airbnb.png",
+    "title": "Airbnb",
+    "companyName": "Airbnb, Inc.",
+    "id": 15,
+    "description": "Airbnb helps travelers find unique stays, from cozy cabins to city apartments, directly from local hosts. Explore millions of listings around the world, book experiences, and enjoy flexible travel options. With transparent reviews and easy booking, Airbnb makes every trip feel like home away from home.",
+    "size": 70,
+    "reviews": 6500000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      {"name": "1 star", "count": 350000},
+      {"name": "2 star", "count": 400000},
+      {"name": "3 star", "count": 850000},
+      {"name": "4 star", "count": 1600000},
+      {"name": "5 star", "count": 3300000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/fdwFwrZB/uber.png",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 16,
+    "description": "Uber makes getting around cities easier and more affordable by connecting riders with nearby drivers. Book rides in minutes, track your car in real time, and pay seamlessly through the app. With safety features and ride-sharing options, Uber redefines urban mobility for millions worldwide.",
+    "size": 58,
+    "reviews": 18000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      {"name": "1 star", "count": 1200000},
+      {"name": "2 star", "count": 1300000},
+      {"name": "3 star", "count": 2100000},
+      {"name": "4 star", "count": 3900000},
+      {"name": "5 star", "count": 9400000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/3Yjs8xdP/pinterest.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 17,
+    "description": "Pinterest is your visual discovery engine for finding inspiration in everything from recipes to fashion and home design. Save, organize, and share ideas you love by pinning them to custom boards. Whether planning a project or exploring creativity, Pinterest helps you turn ideas into action.",
+    "size": 35,
+    "reviews": 8700000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      {"name": "1 star", "count": 400000},
+      {"name": "2 star", "count": 450000},
+      {"name": "3 star", "count": 800000},
+      {"name": "4 star", "count": 2000000},
+      {"name": "5 star", "count": 5050000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/kghfGYrV/asana.png",
+    "title": "Asana",
+    "companyName": "Asana, Inc.",
+    "id": 18,
+    "description": "Asana is a project management app built to help teams plan, organize, and execute work efficiently. Track tasks, set goals, assign responsibilities, and visualize progress using timelines and boards. With powerful integrations and automation, Asana streamlines collaboration and productivity across any project.",
+    "size": 50,
+    "reviews": 1600000,
+    "ratingAvg": 4.5,
+    "downloads": 50000000,
+    "ratings": [
+      {"name": "1 star", "count": 70000},
+      {"name": "2 star", "count": 90000},
+      {"name": "3 star", "count": 150000},
+      {"name": "4 star", "count": 400000},
+      {"name": "5 star", "count": 950000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/C5Yg6XJt/evernote.png",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 19,
+    "description": "Evernote helps you capture thoughts, ideas, and important information all in one place. Create notes, attach documents, and sync seamlessly across devices so you never lose track of anything. Ideal for students, professionals, and creatives, Evernote is your digital notebook for everything that matters.",
+    "size": 48,
+    "reviews": 3100000,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      {"name": "1 star", "count": 150000},
+      {"name": "2 star", "count": 200000},
+      {"name": "3 star", "count": 400000},
+      {"name": "4 star", "count": 800000},
+      {"name": "5 star", "count": 1650000}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6JTbm8LH/capcut1.png",
+    "title": "CapCut",
+    "companyName": "Bytedance Pte. Ltd.",
+    "id": 20,
+    "description": "CapCut is an all-in-one video editor that makes professional-quality editing accessible to everyone. Add music, effects, filters, and transitions to create visually stunning videos for social media. With AI-powered tools, speed controls, and advanced layering, CapCut helps you bring creativity to life effortlessly.",
+    "size": 90,
+    "reviews": 12500000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      {"name": "1 star", "count": 400000},
+      {"name": "2 star", "count": 500000},
+      {"name": "3 star", "count": 900000},
+      {"name": "4 star", "count": 2400000},
+      {"name": "5 star", "count": 8300000}
+    ]
+  }
+]
+

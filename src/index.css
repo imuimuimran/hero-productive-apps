@@ -1,2 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+
+.border-line{
+    border: solid 1px lightgray;
+}

@@ -4,8 +4,13 @@ import { GithubIcon } from 'lucide-react';
 import { Link, NavLink } from 'react-router';
 
 const Navbar = () => {
+
+    const handleContributeButtonClick = () => {
+        window.open("https://github.com/imuimuimran", "_blank");
+    };
+
     return (
-        <div className="navbar border-gray-100 border-b-1">
+        <div className="navbar border-gray-100 border-b-1 container mx-auto px-4">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
@@ -14,9 +19,9 @@ const Navbar = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li class="px-5 py-2"><NavLink to='/' className='font-semibold'>Home</NavLink></li>
-                        <li class="px-5 py-2"><NavLink to='/app-products' className='font-semibold'>Apps</NavLink></li>
-                        <li class="px-5 py-2"><NavLink to='/install-app' className='font-semibold'>Installation</NavLink></li>
+                        <li className="px-5 py-2"><NavLink to='/' className='font-semibold'>Home</NavLink></li>
+                        <li className="px-5 py-2"><NavLink to='/app-products' className='font-semibold'>Apps</NavLink></li>
+                        <li className="px-5 py-2"><NavLink to='/install-app' className='font-semibold'>Installation</NavLink></li>
                     </ul>
                 </div>
                 <Link to='/'>
@@ -34,14 +39,13 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href="https://github.com/imuimuimran"
-                    target="_blank"
+                <button onClick={handleContributeButtonClick}
                     className="btn border-none bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white relative">
                     <span className='w-[20px] h-[20px] bg-white rounded-full relative mr-1'>
                         <GithubIcon className='text-[#632EE3] w-[18px] h-[18px] text-justify fill-[#632EE3] absolute bottom-[-1px] ml-[1px]'></GithubIcon>
                     </span>
                     Contribute
-                </a>
+                </button>
             </div>
         </div>
     );
