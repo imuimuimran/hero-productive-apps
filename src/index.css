@@ -5,3 +5,14 @@
 .border-line{
     border: solid 1px lightgray;
 }
+
+.active-link {
+    background-color: #632EE3; 
+    color: white; 
+    border-bottom: 2px solid #632EE3; 
+}
+
+.inactive-link {
+    color: #333; 
+    
+}

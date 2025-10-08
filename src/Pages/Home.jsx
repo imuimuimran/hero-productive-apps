@@ -1,12 +1,15 @@
 import React from 'react';
-import { useLoaderData } from 'react-router';
+import { Link } from 'react-router';
 import googlePlayImg from '../assets/google-play.png';
 import appStoreImg from '../assets/app-store.png';
 import mobileImg from '../assets/hero.png'
 import AppCard from '../Components/AppCard';
+import useAppProducts from '../Hooks/useAppProducts';
 
 const Home = () => {
-    const appPrdts = useLoaderData();
+    const {apProducts, dataLoading, error} = useAppProducts();
+
+    const showLeastProduct = apProducts.slice(0,8);
 
     const handleGooglePlayStoreClick = () => {
         window.open("https://play.google.com/", "_blank");
@@ -22,7 +25,7 @@ const Home = () => {
             {/* Banner Part */}
             <div className='text-center container mx-auto px-4 flex flex-col justify-center items-center'>
                 <h1 className='text-[#001931] text-2xl font-extrabold md:text-3xl lg:text-4xl'>We Build <br /> <span className='bg-clip-text text-transparent bg-gradient-to-br from-[#632EE3] to-[#9F62F2]'>Productive</span> Apps</h1>
-                <p className='text-[#627382] text-sm pt-3 md:w-10/12 lg:w-8/12 xl:w-6/12'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+                <p className='text-[#627382] text-sm pt-3 md:w-10/12 lg:w-8/12 xl:w-6/12'>At <b>HERO.IO</b>, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
 
                 <div className='mt-5'>
                     <button onClick={handleGooglePlayStoreClick} className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl mr-2"><img className='w-3 md:w-4 lg:w-5 xl:w-6' src={googlePlayImg} alt="" /> Google Play</button>
@@ -63,11 +66,15 @@ const Home = () => {
                     <div className='mt-10'>
                         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3'>
                             {
-                                appPrdts.map(appPrdt => (
-                                    <AppCard key={appPrdt.id} appPrdt = {appPrdt}></AppCard>    
+                                showLeastProduct.map(appPrdt => (
+                                    <AppCard key={appPrdt.id} appPrdt={appPrdt}></AppCard>
                                 )
                                 )
                             }
+                        </div>
+
+                        <div className='mt-10'>
+                            <Link to= '/app-products' className='btn border-none bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white'>Show All</Link>
                         </div>
                     </div>
                 </div>

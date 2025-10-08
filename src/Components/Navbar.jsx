@@ -19,9 +19,21 @@ const Navbar = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li className="px-5 py-2"><NavLink to='/' className='font-semibold'>Home</NavLink></li>
-                        <li className="px-5 py-2"><NavLink to='/app-products' className='font-semibold'>Apps</NavLink></li>
-                        <li className="px-5 py-2"><NavLink to='/install-app' className='font-semibold'>Installation</NavLink></li>
+                        <li className="px-5 py-2 font-semibold">
+                            <NavLink to='/' className={({ isActive }) =>
+                            (isActive ? 'active-link' : 'inactive-link')}>Home
+                            </NavLink>
+                        </li>
+                        <li className="px-5 py-2 font-semibold">
+                            <NavLink to='/app-products' className={({ isActive }) =>
+                            (isActive ? 'active-link' : 'inactive-link')}>Apps
+                            </NavLink>
+                        </li>
+                        <li className="px-5 py-2 font-semibold">
+                            <NavLink to='/install-app' className={({ isActive }) =>
+                            (isActive ? 'active-link' : 'inactive-link')}>Installation
+                            </NavLink>
+                        </li>
                     </ul>
                 </div>
                 <Link to='/'>
@@ -33,9 +45,19 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden md:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><NavLink to='/' className='font-semibold'>Home</NavLink></li>
-                    <li><NavLink to='/app-products' className='font-semibold'>Apps</NavLink></li>
-                    <li><NavLink to='/install-app' className='font-semibold'>Installation</NavLink></li>
+                    <li className='font-semibold'>
+                        <NavLink to='/' className={({ isActive }) =>
+                            (isActive ? 'active-link' : 'inactive-link')}>Home
+                        </NavLink>
+                    </li>
+                    <li className='font-semibold'>
+                        <NavLink to='/app-products' className={({ isActive }) => (isActive ? 'active-link' : 'inactive-link')}>Apps
+                        </NavLink>
+                    </li>
+                    <li className='font-semibold'>
+                        <NavLink to='/install-app' className={({ isActive }) => (isActive ? 'active-link' : 'inactive-link')}>Installation
+                        </NavLink>
+                    </li>
                 </ul>
             </div>
             <div className="navbar-end">

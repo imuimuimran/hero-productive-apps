@@ -22,8 +22,6 @@ const AppCard = ({ appPrdt }) => {
                     <div className="bg-[#fff0e1] p-2 rounded-sm"><p className='text-[#ff8811]'>{downloads}</p></div>
                 </div>
             </div>
-
-
         </div>
 
     );
