@@ -1,16 +1,35 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import useAppProducts from '../Hooks/useAppProducts';
 import AppCard from '../Components/AppCard';
+import appErrorImg from '../assets/app-error.png'
 
 const AppProducts = () => {
     const { apProducts } = useAppProducts()
     const [search, setSearch] = useState('')
-    const searchTriming = search.trim().toLocaleLowerCase()
+    const [loading, setLoading] = useState(false);
+    const [searchAppProducts, setSearchAppProducts] = useState(apProducts);
 
-    const searchAppProducts = searchTriming ?
-        apProducts.filter(apPrdct =>
-        apPrdct.title.toLocaleLowerCase().includes(searchTriming)
-    ) : apProducts
+    useEffect(() => {
+        setLoading(true);
+
+        const timer = setTimeout(() => {
+            const searchTriming = search.trim().toLowerCase();
+
+            if (searchTriming) {
+                setSearchAppProducts(
+                    apProducts.filter(app =>
+                        app.title.toLowerCase().includes(searchTriming)
+                    )
+                );
+            } else {
+                setSearchAppProducts(apProducts);
+            }
+
+            setLoading(false); 
+        }, 500); 
+
+        return () => clearTimeout(timer);
+    }, [search, apProducts]);
 
     return (
         <div className='container mx-auto px-4'>
@@ -49,15 +68,22 @@ const AppProducts = () => {
                     </div>
                 </div>
 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-3'>
-                    {
-                        searchAppProducts.map(appPrdt => (
-                            <AppCard key={appPrdt.id} appPrdt={appPrdt}></AppCard>
-
-                        )
-                        )
-                    }
-                </div>
+                {loading ? (
+                    <div className='flex justify-center items-center mt-10'>
+                        <span className="loading loading-bars text-[#632EE3] loading-xl"></span>
+                        <p className='ml-3 text-[#627382]'>Searching...</p>
+                    </div>
+                ) : searchAppProducts.length > 0 ? (
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-3'>
+                        {searchAppProducts.map(appPrdt => (
+                            <AppCard key={appPrdt.id} appPrdt={appPrdt} />
+                        ))}
+                    </div>
+                ) : (
+                    <div className='mt-10 flex justify-center items-center'>
+                        <img src={appErrorImg} alt="" />
+                    </div>
+                )}
 
             </div>
         </div>

@@ -26,7 +26,7 @@ const AppCard = ({ appPrdt }) => {
     return (
 
         <Link to={`/app-detail/${id}`}>
-        <div className="card bg-white shadow-md hover:scale-105 transition ease-in-out">
+        <div className="card bg-white shadow-md hover:scale-105 transition ease-in-out ">
             <figure className='p-3'>
                 <img
                     className='object-cover rounded-2xl'

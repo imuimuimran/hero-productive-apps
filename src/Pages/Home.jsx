@@ -7,7 +7,7 @@ import AppCard from '../Components/AppCard';
 import useAppProducts from '../Hooks/useAppProducts';
 
 const Home = () => {
-    const {apProducts, dataLoading, error} = useAppProducts();
+    const {apProducts} = useAppProducts();
 
     const showLeastProduct = apProducts.slice(0,8);
 

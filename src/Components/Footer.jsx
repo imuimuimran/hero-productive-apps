@@ -28,8 +28,6 @@ const Footer = () => {
                     </div>
                 </div>
 
-            
-
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10'>
                     <nav className='flex flex-col space-y-3'>
                         <h6 className="footer-title">Company</h6>
@@ -66,7 +64,6 @@ const Footer = () => {
                 </div>
 
             </div>
-
 
         </footer>
     );

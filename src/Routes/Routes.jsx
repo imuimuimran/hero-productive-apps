@@ -16,7 +16,6 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home></Home>,
-        // loader: () => fetch('./appData.json')
       },
       {
         path: '/app-products',
@@ -29,7 +28,10 @@ const router = createBrowserRouter([
       {
         path: '/app-detail/:id',
         element: <AppDetails></AppDetails>
-      }
+      },
+      { path: "*", 
+        element: <ErrorPage></ErrorPage> 
+      },
     ]
   },
 ]);
