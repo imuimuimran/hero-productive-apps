@@ -9,13 +9,13 @@ const Footer = () => {
             <div className='container mx-auto px-4'>
 
 
-                <div className='flex justify-between items-center '>
+                <div className='flex justify-between items-center border-b-[#c4c9ce] border-b-1'>
                     <div className='flex justify-start items-center'>
                         <img className='w-[40px] mr-1' src={logoimg} alt="" />
                         <h2 className='font-bold bg-clip-text text-transparent bg-gradient-to-br from-[#632EE3] to-[#9F62F2]'>HERO.IO</h2>
                     </div>
                    
-                    <div>
+                    <div className='pb-10'>
                         {/* <h2>Social Links</h2> */}
                         <div className='flex justify-center space-x-4'>
                             
@@ -28,7 +28,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="border-line mt-5"></div>
+            
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10'>
                     <nav className='flex flex-col space-y-3'>
